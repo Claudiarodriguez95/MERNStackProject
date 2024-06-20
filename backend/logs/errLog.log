@@ -1,0 +1,700 @@
+20240611	16:40:10	432e857c-b652-47e9-ba4c-1dc98efa2069	SyntaxError: Unexpected token '(', ..." "roles": ("Employee"... is not valid JSON	POST	/users	undefined
+20240616	22:57:19	60e84cab-a07f-452d-ad21-d356c4eb2488	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240616	22:58:26	6a2a8393-257f-493b-b483-30e1b47ade7a	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "DAN" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20240616	22:58:39	f74d7b21-822b-4734-b6cb-f144950afd06	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "01" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20240616	23:00:44	660a3575-d240-40e5-be29-69dcd77b0b9b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240616	23:00:48	1943bd0b-9eb4-4f1a-aecd-6b2fbd7f1cd0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	17:13:41	8ae7831d-a0e4-4581-8aac-c45be95362b7	SyntaxError: Expected double-quoted property name in JSON at position 31	POST	/auth	undefined
+20240618	18:58:15	c0d19abe-7bcc-4f16-874f-cec0be057829	Error: Not allowed by CORS	GET	/notes	http://localhost:3001
+20240618	18:58:15	591e6a0a-d551-4670-b1a7-a488b830e697	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:58:43	6003d0a2-219d-4fbb-ae6d-1ebdc801aaef	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:58:43	60df0ec5-f775-4727-8e2e-9271974e905f	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:58:54	49a95957-76d4-43f5-afa9-7878497ee9da	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:58:54	b3c2d4e4-9f9e-48c5-9f71-8b165170aa4f	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:02	5d4a759d-7d14-4825-addb-e90771d1b630	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:02	ff01ca53-745c-4b54-bd69-e3fcc1a38340	Error: Not allowed by CORS	GET	/notes	http://localhost:3001
+20240618	18:59:05	38db5b66-622a-40d8-ad74-ccb8963d6d0c	Error: Not allowed by CORS	POST	/auth/logout	http://localhost:3001
+20240618	18:59:07	81398d04-09ff-4ad4-9eb2-018a0347f1fe	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:07	cd78ead1-232f-4bd9-84a7-c7eab08806f6	Error: Not allowed by CORS	GET	/notes	http://localhost:3001
+20240618	18:59:26	b4d9ee68-b21e-45a6-95a9-3c1477bc01e4	Error: Not allowed by CORS	POST	/auth/logout	http://localhost:3001
+20240618	18:59:28	71aa3410-fa65-4b88-b49c-1219ca6a1999	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:28	cdc28078-07d9-4a23-b87c-f49aaea39438	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:29	fb9de4b4-debc-47b6-86a7-574e4ceb9f6b	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:29	9fbbbc19-003b-45f1-a757-306c4747a270	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:30	a4c6cbf7-6c6c-4790-bbf9-7eb359b9db42	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:30	af814375-1058-43b2-9982-05c45a348b59	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:30	cee9f1a8-075e-4443-a29e-0276c26fea66	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:30	efecca78-b085-4691-912e-2600984c0465	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:30	279f3125-4ed7-48b2-b005-c028f0088903	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:30	3f45bbbb-e07f-4757-bebe-55f8a7708a39	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:30	ca1e5756-e13e-49f8-9a46-ffd2ded32c7d	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:30	6befcb8b-7048-47ac-a2c5-e0f8f8e43422	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:30	9f853176-1414-450c-aa3f-6afb75bb565a	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:30	3d602162-1e3d-4cb6-9ac4-46a3a275ffdc	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:31	12ac8e34-d9f0-4788-9aad-2ac08840e0f3	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:31	2ebdf192-8537-422e-93ae-775378736581	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:31	8db5bcbd-44d8-4900-9e0d-0b5b1452a6f9	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:31	868c2d27-1fa4-4525-a491-b80ca4b21383	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:47	d3418e0d-8196-4da7-b35f-cad919bf9e18	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:47	0dd04dbe-ade1-4af1-aacc-0e3235bf8dcd	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:47	159a3823-af59-4689-ab67-06aaf69f89a7	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:47	8d261c2a-9356-4dfc-a07f-dc55c43aa6f7	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:47	fc4584f9-2288-45b7-901f-f978b1377531	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:47	e5fa5cb1-0ef0-480a-b76c-97ed2bf66139	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:47	01a526ad-b703-4067-ad2f-889a98d8b8b6	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:47	b62ad0e9-1732-45d0-b0ea-b9bb3850d60d	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:47	80c13317-01b3-434d-a71e-e21415cb0b9d	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:47	684310aa-707f-4609-86c2-818673909c61	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:47	8ca88076-77c4-48e4-8162-b4f614bbd38d	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:48	dac56090-161a-46f7-8b80-6b9a430384a5	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:48	a05543f4-ed72-4fca-85fc-ac7b77844555	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:48	4024be8a-f1d2-4073-b0e4-306594393dca	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:48	c4c3eec7-abd1-4417-988f-54d6532c9ef3	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:48	d7895183-5116-407d-b1c9-47a9e8e06959	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:48	90330585-8716-4d7c-9a5b-2b626d36c1f5	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:48	1c76e6f5-aea3-46f9-856e-a99601a3c8e6	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:48	660906ff-b602-4a09-839d-7f329e1ee22c	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:48	92cdf057-e64e-4024-a816-bfc9151850db	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:48	64ee286e-5e3e-43ae-8912-956077d724bb	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:48	61c61b3a-66f4-4111-b59d-f31b9ff122e6	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:49	dd2f80da-a7b4-4738-86e7-4f2405a92003	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:49	819d492b-0d73-4f28-b06b-727557bb5519	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:49	741c6f15-f7a4-44af-80d4-b7bbdbbd6404	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:49	611274cd-8808-40d2-bc00-5b26b2b47d7b	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	18:59:49	2a882a66-26f1-4662-ae3c-59671e600d8e	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	18:59:49	e6427623-4542-4b29-9e6a-a38fb7f87f17	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:05	1f621f4d-613c-4189-adbf-1a64fc1e74e6	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:05	df8289cb-b0cd-4d52-9c1a-bfc205584304	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:05	3c3b30ff-e4c4-4bda-9163-4e3734a98df4	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:05	68f385f6-8079-4e45-b7be-92162d5d409d	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:05	3cde9036-216a-45db-bd72-02e4164ed221	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:05	a4cbf612-503e-413e-b3db-5252d223f2a4	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:06	a12698a3-6539-4145-9ba9-5f6a030505e2	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:06	ecd96ff1-2dee-462c-8662-d82884ef34f3	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:06	31930104-5342-4f68-9fda-d2b8b448122a	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:06	7894306b-df0a-4310-8284-6d5ff851dd2e	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:17	07f2bd30-0cfb-49f6-af55-f23af9ff4ca7	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:17	47fb9b06-dc5a-44f3-b87b-dd7a3c140dcd	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:17	7f6b0563-57ba-48d8-b219-480a0391ce58	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:17	bc3260aa-de3f-4eb4-b969-717d20b1d5fd	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:17	db0e6906-d1ea-478c-b18b-357e7cc41e18	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:17	6973173f-09ed-48d5-bc3b-8d530490864a	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:17	420ed7ac-c44f-4fd8-afb5-21346f9ba0d7	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:17	acf6e09a-d6dd-4237-8902-427a2c9bbe55	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:17	9d2b66d8-c950-4796-9744-dc6703eacf83	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:17	bb87a392-6063-4a1e-80b1-a44af6faf653	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:18	fdaa06b2-cc07-4856-ad09-dcef7406845a	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:18	f55d26da-84ff-43a2-9ea2-6126294de6c5	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:18	221588de-6993-4305-b7e8-9e9c53c6ce36	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:18	f3bfa197-af35-49d9-82f1-997f2bc0c873	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:21	0673554c-24a8-406d-9778-e4a26d95f3ce	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:21	85656ebd-e5fb-40f5-b391-f35fd2da059e	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:24	60a14cc4-c6f3-408e-a684-b7981edac0af	Error: Not allowed by CORS	GET	/notes	http://localhost:3001
+20240618	19:00:24	a9afe509-db13-4e34-9719-e2f82eb32b88	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:38	e2012c69-d76b-4316-b51e-74b65d2d3c1e	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:38	9fd9b9cb-c0c1-48e5-a050-db6b7432f7f5	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:44	1c9d3b2f-7f00-42c6-8741-fd8a7c1575c2	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:44	a9b67331-6029-4f1a-8ffd-0bd4640b3f09	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:45	6f344fa2-cdf7-40c5-94ac-563351394ff1	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:45	986fdd75-ae9c-49a9-8cca-0eee0eaeb4ab	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:45	8779b355-1603-47b9-8e73-30d8a2344acb	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:45	e8f14be4-5172-4252-a8a0-90baa63c3b0e	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:45	d4d92172-ef9f-432c-be3c-e9e7fcb1d2a2	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:45	50ed123f-6971-42cc-afff-3d5c15ddf19e	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:45	7272e802-4c68-4b9c-bad1-a3f65fa5e432	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:46	03dc83ea-0cca-4a86-a78a-28029aec44c0	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:46	ba5b5bb6-f54f-455d-a9b5-51630a310bf9	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:46	ee86717b-73f2-4433-a7aa-b4bbb55a2d7c	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:46	d98ba8fb-469c-4663-821e-050a0941e960	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:46	5cf5ef5e-4857-4228-8fcc-52533a33898c	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:46	7339e840-2ffc-410d-8b08-971e1dc310f7	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:46	c9d4ca27-9d7f-4043-9621-11bf45cdb0b5	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:46	1b1c8acf-751c-499f-9b99-a8b12f1d0c52	Error: Not allowed by CORS	OPTIONS	/users	http://localhost:3001
+20240618	19:00:46	8ce0123c-c5e1-402d-a90a-61c6d54fa48d	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:00:48	485f1441-e155-462a-a350-40e367a164e6	Error: Not allowed by CORS	POST	/auth/logout	http://localhost:3001
+20240618	19:01:02	46838214-1445-48d2-a636-b727398a9c2f	Error: Not allowed by CORS	GET	/notes	http://localhost:3001
+20240618	19:01:02	8d46088d-d894-456d-b90e-a564c601b747	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:01:05	01db8e25-b987-4277-88d7-0874bbb74ee7	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240618	19:01:12	8d10de25-273c-46e7-9677-49a6fe2816d8	Error: Not allowed by CORS	GET	/notes	http://localhost:3001
+20240618	19:03:41	a6d90b94-afcd-48a8-8f57-5050f5a78976	Error: Not allowed by CORS	GET	/notes	http://localhost:3001
+20240618	19:40:53	06558468-c6a0-4d4b-8625-d51d24e153ee	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	19:57:33	3f5750c5-a11f-41be-846f-894f2539e06a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:00:46	8d1e9228-c90f-4774-b04e-770befd67e7e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:08:27	bcbe7883-0ab2-4dfa-bf19-3a4710337695	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:08:32	aa552f2a-9fca-4405-9b86-c984887502cf	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:08:58	43ce7ba2-ae9e-4145-bce1-7cf1f60bdbde	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:09:13	05a5b9cc-bef2-407f-9a2d-341702563ae6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:09:29	eac3cc7f-7f37-4ffd-bde4-b9b547ea2774	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:09:44	c6a6235a-9896-4054-82a3-8eae5592f9fd	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:09:59	d4c38933-30c7-48bd-99e2-4f9617d0d1e4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:10:14	6747d5e6-b811-417b-ad90-ff6dadb2896a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:10:17	268ae0b8-228c-4de6-b749-a5c25f5b9d64	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:10:36	a79d5f25-5dda-4059-9473-7bec86b449e4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:10:53	fa870639-e985-4c61-9a43-c7ccc1df1322	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:11:09	e5029a53-d0aa-4786-8353-993ceea8d31c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:11:25	a34c1377-578a-4f5e-8b78-e63efae37d0d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:11:40	8e360291-9381-4cf3-af59-3d42f03a9027	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:11:57	54ec2b70-bfbd-4195-85d6-6170c4880baf	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:12:12	6ab19111-eed0-43bc-9c0c-196053449831	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:12:29	2ad63d5e-1621-4550-baa1-5da2438b7700	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:12:45	2501fc35-8c58-46fe-ba6d-f6f3647eb9f5	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:13:01	6474f545-981a-4bb9-b497-f1ff27ec93d2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:13:16	6e5f94fa-3eff-45a5-a8f7-e17874ec0930	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:13:33	5ff797d0-b6da-4564-8094-5815d92cefb8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:13:49	b9f2d9d2-7788-4047-827d-7726e9c82d66	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:14:05	3e9bae70-d0dc-4748-8b59-91093c59ca4e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:14:21	bc64bb9b-97ad-4a38-9bd0-da15aab5b032	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:14:37	32bd82b4-988c-4723-a9cd-160aeb804272	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:14:53	d15b438c-502f-4821-9e5b-87ad3bcc932e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:15:09	ba867475-6fe5-4dfe-a1a3-9979b750117e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:15:25	ccee8b6a-01cd-4b4b-9cba-8d50a2887303	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:15:41	8253495b-dfed-4e2f-bc4b-f1f9a63336b7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:15:57	0c602938-8b3a-400f-81b7-3c9f07a39805	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:16:13	58bd5b33-ffcb-41ee-b3a3-d122081559d9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:16:29	908accc9-acfd-4ba1-8051-b660dcd15cb4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:16:45	671ceb44-7f12-436e-adc9-b2b8b83a214c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:17:01	3898cf54-0160-4db0-9aee-6019adbe18b0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:17:17	52edb8c5-bac5-4704-89eb-3f57e39a739f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:17:33	13bab231-3aa1-4987-9d71-d8d4c936bfe2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:17:49	c4cee941-3ca7-4b7c-a5cd-2c2cc30b3895	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:18:05	c3f476ec-af1e-48af-93f4-1b3ebb696cb8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:18:20	dbb3c82c-d1a0-4bae-817e-32c4d399a5d1	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:18:36	c08d4cdf-84ff-4bdf-88e1-b52d960b47d8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:18:53	70265d80-ee02-4f92-888c-682da8238add	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:19:09	09dccfea-a1d1-423d-9273-9eb8ad025432	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:19:25	dcc24b99-41ea-40c6-be77-1cc0d46983a0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:19:41	b9ba7832-67b7-4e7f-ba8a-5c5951836bdf	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:19:57	a3cf09fc-428b-4c5a-8db3-c7ac75c09ced	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:20:13	0b24606a-26a6-4ae8-ab0b-accd803e2584	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:20:29	3b689202-1374-4f46-b5f4-776b06239939	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:20:45	d9d0912a-76a2-4d7d-912c-c763244256b8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:21:01	b6391f41-f032-43b4-8998-0035451ef4c9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:21:17	7a81132a-9b9b-447a-83d4-d528781493d7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:21:33	69485e3e-35a3-4f8f-b44a-a01db315f5e2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:21:49	42900389-c28d-4636-a0d0-e3ee3bb1129d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:22:05	4622d8ec-b11a-4dbd-b8a6-74d8e58de004	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:22:21	00934e9e-c656-4854-9807-483efd1d4beb	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:22:37	02ce40de-8759-4346-bf1b-68c5bb96d437	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:22:53	1ec930ce-aba3-4a0c-b2e2-1efcead40ff4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:23:09	c19ec66a-b512-409a-bf26-8e300c9bd4a3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:23:25	568a335d-80fd-42ec-9a3e-e2c417334f44	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:23:41	baf95209-01ff-4a58-afa3-01b64195f590	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:23:57	337fb264-ef4b-4cbb-b2fc-2b1fe5566159	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:24:13	bf784111-f2b3-4463-9830-8d4163ade401	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:24:29	8623b3db-0cb5-480c-ac6f-e833566b9a34	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:24:45	ca676cf7-328d-4058-886d-8118a1a875b3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:25:01	f63b1d4b-512b-4836-9a14-36270515fc37	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:25:17	a808c2c9-8924-47ef-b6a3-d2a066d03452	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:25:33	1eb1d0ff-498c-47d0-be3e-5fd304eb9626	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:25:49	ac3d4be8-5bf7-4032-be7b-faa6133d86a2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:26:05	29ae2005-0f5d-4cfa-9633-b7f096d3aece	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:26:21	ce840ade-30bb-442d-9731-255ee7bcb921	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:26:37	b3357fea-9de8-4e31-9bf9-c09bb3c75c36	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:26:53	95320215-e198-4076-a340-5c9c6e361fcb	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:27:09	12db4bb3-caea-46cd-b1a5-de6cb547d013	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:27:25	a1f68d46-6759-4ea9-b5d8-b761cce958fd	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:27:41	d0ef3ba2-61f6-43a6-8c73-cda44c84ff86	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:27:57	6e3a48a7-1901-44c5-bb9d-120f7b637163	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:28:13	e3080054-4fac-49ab-9c80-0017f5a6f728	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:28:29	e4cb6538-e184-4636-8966-35310596c993	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:28:44	206ab533-d345-43af-8d0a-6d84f77683ec	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:29:01	2189c000-db13-4e2e-9c21-546c4b12ef94	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:29:17	92c3ebdb-2960-4c83-af75-fce17455a8d4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:29:33	d67ee57b-9a4e-4b18-a3b0-2c6fa61647b4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:29:49	c34d8077-530b-4612-a9ac-086ebfcfcdb7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:30:05	5e744caf-c859-472a-a1a8-7c8e93471895	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:30:21	dbe13719-f53b-4231-9ea3-98ed7d6f01c4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:30:37	471abf87-8048-49ee-b7b5-622c4e453232	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:30:53	44d00b85-25b1-4724-81bc-3befdf4fbb4b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:31:09	301ca88d-e863-435c-a180-b73b0bdcfaac	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:31:25	3f6beabb-1f01-4891-afc6-1a0a7acadba0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:31:41	b111b939-4a12-4a1c-8dc6-0d2ecddaaae9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:31:57	61be89df-ea3b-4ba9-8df1-9c9aa09e260b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:32:13	72dcffc0-e454-4f0f-99f2-f12b1992c1a8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:32:29	013a121d-ef7d-4bc2-be8e-c5d4292f8dd7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:32:45	d1c68d48-8a8e-4c9c-8301-05cb66df7d63	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:33:01	302b62f4-e329-4cd5-8da0-177ec84d7647	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:33:17	d9de596c-57f3-4019-bfae-60ccd97b8ab4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:33:33	a0551a97-3820-4626-8067-cf5576f73c84	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:33:49	d00f8a77-5f94-4e52-874b-8df8a3449852	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:34:05	28bcf376-8de5-4165-aee8-ba1cc66922e0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:34:21	97edae25-f21f-409b-ac0d-70f765edae87	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:34:37	c38bfdef-02f0-4911-bb73-7a4c792382ee	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:34:53	fd9b3f85-7408-4bde-bb8f-c71efa85de55	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:35:09	8dd0e196-e8b0-40f3-97bf-54e37a0a2b70	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:35:25	889aa8e9-430a-463e-a3f8-ee29c2f894c3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:35:41	b8ff5da4-fd9b-4a11-90bc-d77e39710f78	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:35:57	6cd5f47c-4595-4602-8d93-027aa42d56b0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:36:13	a2303a21-b436-48bf-ad59-41e4ebe39787	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:36:29	ef3e4826-84c8-423c-90a3-008fd19f0569	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:36:45	91c52016-2442-4261-a5a3-04bf2ff466f1	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:37:01	4db1a961-d25e-4033-946c-f414ef70d96d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:37:17	11c814b1-f29c-4a4d-84ba-01d196d96a03	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:37:33	ce159d7c-fb86-4f1a-b0b0-d8fd87dd8050	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:37:49	7b00e3ee-f9a4-4366-9cbc-05cb7a1eaf4f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:38:05	ac4be908-a069-45e2-be23-e4b3f49b468d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:38:20	a08cd466-2f08-49dd-b193-6ba37c899b18	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:38:37	4c27a8ae-c7ca-4631-80a6-84dd8dcf4a8d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:38:53	c071b03c-fe01-4efc-aad9-3cad0d294479	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:39:09	a7364a4e-8edb-40fc-b60a-2476a23bef6f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:39:25	1692ad35-be02-4965-98de-c47de8b13c66	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:39:41	c6a91c5f-1ea9-499d-8957-c06e9dfefa64	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:39:57	1fbe5c91-13cd-40c5-8326-b51a7bc87476	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:40:13	eb434e09-8e0d-4aaa-b2bf-5729a35e2ccf	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:40:29	c84b259c-3272-4d59-af8e-791ee9c235e1	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:40:45	53d3a052-4919-40b0-b08d-79c6e53c8e40	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:41:01	4d940bdc-64e9-46c6-87b6-9d33d85f8759	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:41:17	5d86dae8-ae0d-4811-b944-5f769336fa3a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:41:33	134fa623-4689-4b16-876a-b330102fff34	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:41:49	04e28fd2-f93c-4aad-9b18-b8a33069e914	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:42:05	eadb45c8-df38-4660-99be-be720d3f76d0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:42:21	a282178a-ce56-4e18-bbc8-eb5623341f8f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:42:37	1dfe7475-b48e-4c28-a92a-4af89e4b3f46	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:42:53	cff97a7c-c593-42e5-a45e-b21785db8a0d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:43:09	d6972272-3125-4a0b-b5f3-5d7eef87baba	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:43:25	69c89d6d-d93a-4cf8-a973-ccd1fdef74da	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:43:41	00b3bf5c-b3c2-4016-98c1-7d98e1375d53	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:43:57	c2e69b2c-a834-45fd-b9d6-72ab18b5992a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:44:13	a64c5992-8767-40dd-8ba4-a7a856517969	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:44:29	3627a37f-c1c8-4003-860a-9af1794138a9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:44:45	e56bda74-c99c-44b6-8f7e-92f8aa5671db	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:45:01	28b9f0f2-e339-47f5-9353-7ad2cc01097f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:45:17	00f258e7-216e-49e4-85e5-9041165c3e30	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:45:33	b72514fd-8c03-4126-a8eb-1092e35352c4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:45:49	d02ab287-8e17-4661-bc62-5cdf0947d5d6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:46:05	692b950e-32a7-4925-9fba-1c7ef7e3c355	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:46:21	c18a566b-759c-4f86-9030-bf7fe7621317	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:46:37	5b04120c-9c1a-497f-891b-008f0a4ffdcc	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:46:53	e7d0a1a2-9d98-41e4-ab9b-ba78aea42f0a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:47:05	3bf28378-9655-45ce-97d3-4722c459367d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:47:07	6de5d85b-0847-430c-ac31-83532bd7b85b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:47:09	edfa925c-91ef-4c4d-99d6-015b50672476	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:47:25	6f8e3273-4542-4d08-9afd-ac3a7a464239	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:47:28	a94ab994-83ed-4ac3-baee-e01a2ba32898	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:47:41	20ce06fb-fa15-4ea8-a58a-c6c6b8f3867f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:47:43	776411d5-f4f8-4561-bb3b-37ce175d9195	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:47:46	14126e8f-7651-4fa3-88c9-d5858f9485d6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:47:57	b3123bbc-0aa1-48ce-b28b-572b1595e47a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:48:13	04a7b7ce-23d4-4b6c-ac8d-1796a43d7ae8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:48:29	6d0eafea-ed1b-4363-a11c-6e50de2ed0db	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:48:37	4380993d-d9d9-4947-929f-1220d5aba94f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:48:45	56a130ac-d23b-48c2-a633-a07adc49b48c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:48:46	58fe960e-7925-4126-a231-fedaa57535f9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:49:01	4a6d8ed6-cf1c-43ce-9336-eba1ff423ebd	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:49:01	2a90b006-e195-4d6e-b349-44ef86d3e370	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:49:16	d0637b43-3f7c-4f16-a5ba-3a8c1017d7a4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:49:17	de1aa2b5-7f69-4d36-aa5c-9593911c02d9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:49:31	06d2b702-4156-420c-81a6-d78142aa59d6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:49:33	084eaf07-e805-40ab-a4e1-fb12a7fc7cc7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:49:46	ab3b2339-922b-4087-8436-34fcdb5d6659	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:49:48	86955563-bf0a-49cf-85e3-f1c141781f1c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:50:01	8bf5f08b-60aa-438f-8f8a-3d38435d6197	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:50:05	29a88f6b-b7ff-4874-981e-0cce19116f69	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:50:17	028dc62a-e5d0-49b7-b4fc-ac9078bcc51d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:50:21	aa3b6c4f-e6dc-4ec7-abcb-ca9fec76a620	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:50:32	a8cd36c7-e3c5-43a7-bb77-b4a319fda220	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:50:37	f142ced2-2edf-4867-88b8-56abebbb91ee	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:50:47	29a2be19-4803-49b1-a0d2-51ffecd4c435	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:50:51	ca536c0c-93df-40ff-bfae-82a461b0cab9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:50:53	afcc3e9e-aa17-4f18-86c4-d7b7b5ab4cea	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:50:55	7981a22e-99fc-4263-bb94-d88cea59f999	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:51:06	0b846e77-f835-436a-b734-4ca2f08a7016	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:51:09	d1ea1cdc-a8bd-4415-9ef1-6e0b19686bad	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:51:22	6357fc30-6c65-405a-8657-7ce980df4626	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:51:25	01f36d9f-6e99-4464-9560-d1bfa42c4be9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:51:38	59c1638d-c0d3-4ebd-8404-e62383784417	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:51:41	62457ff2-91a9-4229-9805-0330b52390d3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:51:54	f633e164-a493-466e-90ce-8e857bb6abed	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:51:57	0ff6e59a-daeb-42bc-b173-47d02ac6a5d7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:52:10	fea858e0-9d75-413e-9e4d-9c4b69459c79	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:52:13	a8670e35-db5d-499b-b2a7-968293235d01	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:52:26	7bae8c1d-b370-4077-9b45-c408686d54de	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:52:29	12d21e1a-63ca-4c8d-8c01-4e035c4e1b8d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:52:42	4ad9026d-be6c-4b16-b2f7-c9244ef0f34d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:52:45	f055498c-0b21-4cde-8b1c-b662b9fe8103	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:52:58	5c9db933-7f72-4bbe-a28f-470b3e8f8668	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:53:01	7db4b440-ebc2-44c5-83c2-978ca78fd817	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:53:14	06b0c825-d16f-4d0f-9564-f4e1389348c4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:53:17	56ee9d9b-bcf4-47f2-a6e0-13742ef008e4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:53:30	7b32232f-f11a-4527-aa19-5149df36ffd6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:53:33	8555bbd1-8ee0-4334-bbd4-b4357e86d37c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:53:46	075bbfb7-0614-472d-8c98-2b553aa3eeab	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:53:49	5205bab6-c049-49a4-942a-4975b24f7ff1	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:54:02	a508dd6a-37f1-4611-b104-9e4e7a52caea	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:54:05	a13dba0e-c9a2-41dd-a53b-0bad7b414944	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:54:18	28cbada4-ba6d-4f0f-becf-5af18cfbe200	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:54:21	2f7943dd-eb57-4825-b16d-cab2a524ff57	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:54:34	77b72dec-5a05-4dd1-b7c1-8573d05d6604	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:54:36	426e9207-42b5-432a-b0cf-1fcd00a7d727	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:54:50	e502ad67-22ba-4904-9ee6-deb7bff81b21	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:54:52	c4d118b4-637e-4a92-8a9a-8eb51c25c3af	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:55:06	4d30612c-f9e7-4307-a3de-5ffa2fe8ba23	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:55:09	9ab1ca7a-a5de-45e7-a621-57e7389ea1ea	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:55:22	3cec0e95-2a94-4fc1-a92f-98779c57ed9e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:55:24	71395cf7-3ff0-4b81-9f5d-100c335b7977	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:55:38	e7e0ea15-8244-40f2-953c-20f8822b9e1a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:55:41	b6a98f2b-3129-41f9-baeb-727423e52951	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:55:54	f8177c43-7fb9-4d72-869c-ed9e57aa38fe	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:55:57	a36e75bf-1876-4d93-a73a-ee13205478dd	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:56:10	87dc425a-0805-4acb-ad90-db16a4699850	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:56:12	c7e7c325-ac77-4cc0-bb81-c00a7df57ecd	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:56:26	05c85d41-50e1-4e0a-bfbe-585a4f283d37	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:56:29	71a4d0b5-8e5c-4451-bf03-0e1cf3c7113e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:56:42	4e39a150-bac6-465c-bbae-e1f128964750	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:56:45	cee4c876-c898-452f-8539-fe7e6121513d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:56:58	01d7212c-e243-48ce-8073-1a6dc29b76e3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:57:01	21ce7285-798b-4740-9ad8-54e16faeee1c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:57:14	4826a23b-df04-4860-b28b-127ada821407	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:57:17	6108e47d-7309-43fc-b8bc-8380c3eb23e5	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:57:30	f00522d5-0f1e-4c83-bd82-7f9fc98092e0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:57:33	45b18bd6-92ea-4e36-9e77-487c56b86e35	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:57:46	426c37e2-e284-4ac3-a67b-fd073f4a5e20	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:57:49	9ccc77dc-4d84-4f96-bfd0-0a2d4c75d0be	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:58:02	35a3fd58-74ac-4f6d-97af-a7e53add2f42	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:58:05	39a948ca-23e8-4e30-b90a-17bc4bde3b11	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:58:18	d5c54a3f-eed9-43d4-9dfd-97c224639474	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:58:21	ae583209-5e3f-4985-a550-ef45d931cfed	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:58:34	236768ea-0d6f-43f7-ab3e-10e2df85a946	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:58:37	3c5a313f-9209-4723-ae4f-c63e7b4aca8e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:58:50	c596e740-9efc-4533-bb46-11ca579990a7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:58:53	b73b7140-1a32-4df8-b6a7-3e0a3bc5b0c5	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:58:56	2b4ea2a3-42b6-4d24-abda-af36bfa6c174	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined
+20240618	20:59:06	39e14467-2c3f-4f95-a181-774d796c97c4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:59:09	0969fec0-da08-4e50-98c2-01fae5753865	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:59:17	eb7a4351-ad2a-4ed8-bded-e36332be2b30	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined
+20240618	20:59:22	2cc44655-8297-4ae8-a38d-7c229487c17b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:59:25	33e9078f-f16d-4898-95d3-40bef133c119	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:59:38	91093c3a-7921-4980-ab36-aee30a8e208f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:59:41	182281f0-2c8a-4c0f-a2d9-4aab214adac0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:59:54	993183bf-cd75-4d8f-a910-af3d76832744	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	20:59:57	66d36f46-5111-4bf0-ba54-e4f62e858db6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:00:10	1cebb964-17f6-4cdc-8607-e8486282c5e5	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:00:13	61734211-09c7-4511-9b35-e7bc08f00de1	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:00:21	02034b33-485e-46bb-82d0-f837332b5ff4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined
+20240618	21:00:26	68a5898d-20c0-4a98-a4ae-b7aa55027b3d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:00:29	c1f6eaa4-6113-4e9d-ae45-ed02fee3e2ef	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:00:42	438532ce-9143-4583-a45c-0cee53c6c980	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:00:45	e2dbe44e-6288-4b61-9ddc-f0936e845e7b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:00:58	f22527bd-5cd6-44bb-a702-0b4b13a6d837	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:01:01	dc25f385-fe5a-4037-bd5b-59b4055b74b6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:01:14	326aba5a-7bfb-4b3a-8e33-bc4a3df604e3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:01:17	e980b942-e27b-4416-bac0-ee07ea165176	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:01:30	b2288ad4-0e36-43a5-be3d-34f007ae69aa	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:01:33	344c29c0-5d7d-4c49-a743-bafb26d08faa	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:01:46	a9f1fda2-8551-4d8e-842c-2b44ddd29eab	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240618	21:01:49	89022c02-8b74-465d-8b21-c424dc570bd2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:44:40	761a3a11-81d6-43c5-8cd5-d401bd9a681e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:44:43	d9b5a083-9739-4b56-a5cd-efc6e899d59f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:44:58	751b156d-de07-40cf-bfe4-2159e4ee843c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:45:07	1bcd34c8-ec00-4be9-aa17-8a8d1a9b787e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:45:24	d4585602-a049-4223-a586-3b307700f67d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:45:40	7b1fcda4-3a3c-465a-ace0-392c1dcef77e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:45:56	2948ec16-7ebe-4fd7-9ca7-3b153247213d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:46:12	92c7e0ad-de69-4b6d-98cc-391bd69fb85d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:46:28	6d87ce00-3b27-48de-bfc9-5610753ffb8e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:46:44	915ad3a0-b3db-451c-ac9a-cbc5d440f683	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:46:59	2753716f-682c-4084-95a1-4907220b9c4a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:47:16	55841faf-4bae-4032-8477-d4a2b9b133f4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:47:32	96bd94a4-a102-4a48-8c47-be027479ab69	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:47:48	b403b10f-1028-4737-959f-54a822103e45	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:48:04	97e33279-efde-4c64-b8fd-d284d4265b82	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:48:20	0a6690b7-9aa0-4ff7-a43c-a4ac9b53e737	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:48:36	8fc432cb-0472-4e71-9b8c-9b5451b1086f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:48:52	f70636f2-080b-4848-8efb-984cd5b41d67	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:49:08	c7cad6f8-2e64-4557-94f0-085719f9a408	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:49:24	1e1c537e-0fc4-42c7-a840-9a8194089fb3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:49:40	30f76f2e-25a8-486d-96f2-99b0e3a969e6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:49:56	fc5e85a8-312b-4183-a671-c7632d149012	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:50:12	eb4ed1b2-f82d-4ab2-8530-fa260bc7ba8c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:50:28	d88f840f-7899-478c-911b-6274d110adaa	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:50:43	9b848363-45d0-42b3-a9e0-a38448360445	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:51:00	3611bede-a282-4ffa-b786-e13a6c38aa62	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:51:16	a1643829-76c6-4d5e-bbfa-329ef312f6d6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:51:32	3b50f2c6-b9a6-4410-b2a4-9bb33548287b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:51:47	4b238fae-a575-4200-93c8-c7d633c9ab7d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:52:03	8dcc4e71-73b5-40b8-bebc-dd21bb6d2387	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:52:20	f0eb298c-f391-4e67-9f88-d752c1234930	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:52:35	3f85e40d-b8a7-48ed-8cad-f384519b650b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:52:52	420fd734-fd2c-44e0-b82d-374e4b333407	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:53:08	2ed521b8-f1af-42b4-8898-3276586c20fb	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:53:24	73002311-7490-446a-a72f-577ab1a92e74	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:53:39	7a88ce83-a402-4d56-958c-4430e1a9fd29	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:53:56	dd23fac7-61ca-4af7-8cb7-5096d68a8e1f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:54:12	0d58ec38-f9a4-4ec0-9616-d6137093356d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:54:28	13fa945d-5bb7-4851-85b2-071c3122ce56	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:54:44	f1651297-f0e5-4832-a5fd-67eb31f98dfb	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:55:00	9a105244-c280-4233-be19-336e24ab3dd2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:55:16	21c544e5-c702-4a34-a7dd-1fdc88c74b09	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:55:32	79a235c2-fea5-4866-b64b-43ba825014f8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:55:48	acccb345-b3ca-4764-a23d-1a2757776d25	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:56:04	8aa410e7-33e4-4207-86c2-f47448da4cf8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:56:20	692e2a95-fe58-4841-9d84-d5706f74ebf3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:56:36	778f483a-1ca9-4832-859b-919753d52903	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:56:52	e73166e4-486f-43cd-952f-f67fa07ab983	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:57:08	6f6e67a9-d231-4ede-86ba-f54f252738df	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:57:24	22eb3459-cae7-4e5b-bf72-19d9c488ac47	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:57:40	339c9c77-afe2-430e-b0b6-6d54a845357a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:57:56	5b1f23c7-5de5-41e3-9ae9-0b9a3afdb5fb	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:58:12	b351ca53-4892-4e78-bd7c-fc9f56425723	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:58:28	95a5621e-6b71-4504-b8c9-6fdf84593da4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:58:43	7e6f3852-911d-4631-bf01-364057e6e53c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:58:59	5311556e-0cbc-49a4-a0e0-dc914f05c493	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:59:16	4e9fc663-e1b0-46b9-ab0d-799b4f3d99ab	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:59:32	9f0de7b4-1c55-434d-bee8-c1565c6f7777	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:59:38	0c7b0cbf-0dc6-4c6b-93b8-cc517b114744	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	00:59:54	cded43c8-5fa9-4e99-8870-d0da9ffb0bc2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:00:10	5ff8b886-d990-44ae-81c8-fe760f30a3c1	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:00:25	062af1ff-1abc-4128-9699-5a1c769e9ba0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:00:42	545a7d69-f015-44a0-9e43-88da8a8ceafb	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:00:58	6850711b-43cd-40b7-9a2d-a1288de3428b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:01:12	29b2deda-09ff-422f-9d0a-3082bde3a17f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined
+20240619	01:01:14	705faa31-df1b-4064-b5bb-25fce1f65054	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:01:21	85dbc558-9e1a-45a3-9ff3-151149eb2315	SyntaxError: Unexpected end of JSON input	GET	/notes	undefined
+20240619	01:01:29	f0828621-b164-4b02-bfe1-12df3a92f928	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:01:34	45eb5c7f-8943-4821-9e65-b8fe8ddf5dc4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined
+20240619	01:01:46	220b18b6-a705-4c5e-abd0-d32674ea841f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:02:02	3a793432-6ac8-47c0-9c39-00102fe50f12	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:02:18	156af73d-85db-4e3a-bf96-cce93fc3d493	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:02:34	0d1ee40d-efee-4900-a0bb-e1b51bc91618	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:02:50	2d838f03-cad8-4256-bb77-3f0bb21dfc96	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:03:06	31d39a61-b684-4e42-9c84-c6fb144193eb	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:03:22	95dbe9b4-030a-41c0-a9aa-6a311ba77517	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:03:38	df63a3c7-e2e7-4a22-9c68-2405448ee855	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:03:54	621662b6-3d37-432f-bb78-52fd0fb0c22f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:04:10	d741fac7-6f00-4fad-9186-c9ac74336d93	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:04:22	a609544c-5ea4-4898-8314-1c8ef089a568	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined
+20240619	01:04:26	345d8273-ce4c-415c-8fbe-18137fccce8d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:04:42	aa5b64a6-c9e7-4943-9f34-145036412cd7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:04:58	479c4c3d-7db7-467b-adbc-c31a3bae3482	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:05:14	33584607-977b-4bba-96ac-786d31d34a9f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:05:30	d20349b1-1126-4171-9453-462a1b724ae3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:05:46	2a5af43c-3aaa-487c-8c60-23b1066eb318	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:06:02	6e8fced7-372e-42fe-b12c-8615eb1ad9d6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:06:18	cd4c7151-31a7-454f-9a23-09e66c304b6c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:06:34	f115da95-e9ba-4173-b5c1-1738ff7f839e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:06:50	09ac7b4e-7733-4027-b402-79038f51693f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:07:06	4bb9210e-e40c-47ab-ba1b-522c080d72bb	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:07:22	b08bc087-81c2-4f07-baca-72a65a470700	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:07:38	4940d19f-c5d9-4875-9b2b-f829d095de76	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:07:54	a4ba4802-092a-427e-a5ce-114f97959539	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:08:10	7de103ba-2f9e-4a5f-9596-f39488dbbec3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:08:26	c44c1902-3133-4e1a-a443-9dc701a47f2c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:08:42	83644623-75b0-45bb-b1ed-d2769f2f6893	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:08:58	bee94f27-3b82-44b0-a801-c8c1346d73f2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:09:14	34bd36dc-3e0b-4624-8671-5c339cf4bb0f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:09:29	862c1a18-bf14-40ae-895d-acc7820fe741	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:09:46	cd952e00-0f8c-4310-9e93-750e63156a56	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:10:02	7a85e10c-45fa-481c-8b9b-785fc8313768	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:10:18	cc43ec5b-98be-460a-b506-eda7b73ac2c4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:10:34	a94a9cc8-8c89-4d1d-88a4-11754966625e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:10:50	c70d826a-5116-47b3-b91c-ee706ccda5de	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:11:06	a659070a-d063-40fb-829f-c2509c507313	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:11:22	09ab44b0-5d77-4690-8938-4b0826905c5f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:11:38	4d7f7236-effd-4b52-a72e-6a0adda732ec	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:11:54	b42e9243-4047-424c-93b4-e3240abc7c32	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:12:10	f9c4ea21-ae05-4248-ad77-92dd5dd29308	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:12:26	e1ac225c-f053-415f-a4d7-2742d1b5d3c0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:12:42	078147fd-7a15-4a88-b897-315c2cd16f76	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:12:58	ded73534-31b6-4b04-a81a-87e94e65ece0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:13:14	94a61b6e-f7ad-4fd8-bd83-c2e5e70ab76b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:13:30	4a9ae68a-2f41-4add-a5c9-9ff0c1e5ab29	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:13:45	365e2095-9710-41c5-a574-b519a14a0682	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:14:02	9b7242c0-3dd6-4492-a62f-2037e2894047	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:14:18	6a1e4c7a-c115-433b-9933-dd678496c30a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:14:34	093a120a-2c5c-4364-b41f-0608ecaf1182	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:14:50	0e5530d1-72dd-4ded-98f9-2058a8974e0e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:15:06	58872307-6759-484f-a201-2286cac204db	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:15:22	9c099180-aa60-46da-b51b-8ff2707a2c9f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:15:38	5b433bc8-f7cf-460e-b159-b7354202b74b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:15:54	d08aff78-263a-4301-8b24-861ea0b4c016	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:16:10	9804748b-2970-44cb-82a2-51dd8d7180d6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:16:26	584b6a6a-5ebd-42cc-8db6-f7b2782e989c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:16:42	c038f310-5db9-42ca-9764-899979280906	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:16:58	6b4b620d-0454-4770-a5af-448ca1ac6f49	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:17:14	7bbb86d3-79fe-4fd3-be31-d8da1979d13f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:17:30	6f4b928d-d9cb-449d-9f78-a660a1c8a496	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:17:46	23aa0474-a862-4d5b-ab73-90bb6b5c7a7c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:18:02	1f18908d-1d38-4f88-a868-5a9aa0957803	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:18:18	e1f6f3df-a078-4c99-b8a5-c0a226c6e7be	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:18:34	73e4410c-7059-46f2-a053-96b9c2df4ed5	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:18:50	070a7996-f86b-480c-b877-6490658eb024	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:19:06	d9602da5-ec9f-4986-b688-5f35e38277a8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:19:22	ee9c0e7d-f206-480d-b9d3-84085fd27a02	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:19:38	c8148947-62dd-4be5-a7d7-b56d9c4388e2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:19:53	0bc4989f-fa30-4578-a800-70681fc0820c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:20:10	4f2751c6-a2c2-436f-949f-69c56732d971	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:20:26	82dd5c38-d8fe-4c27-b1dd-0afa46a29939	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:20:42	9c5b0621-7025-4be1-add3-5cb05db18dc7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:20:58	83230842-833b-4a9f-888f-05b6f975ee32	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:21:14	3557e2d3-1b76-4274-bd70-5a1b2b3560fd	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:21:30	91295d15-55c9-41ed-9e1e-6ffc90e5b496	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:21:46	5c164dc1-d230-4ceb-ad40-95e9e1b0ac02	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:22:02	1c9bb025-d7d0-4d54-93ba-f8b156a46297	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:22:18	77e84a89-d249-4111-b2f7-a8e15af78a15	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:22:34	850fd85a-ed0d-408f-b7c0-1b8fc6987940	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:22:50	1e4b14ec-48fa-464b-83f7-01e34b94648d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:23:06	7a038e7a-7c78-4122-8a5c-8ba501ca2660	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:23:22	2368c503-77d7-4603-9763-39c0275ccc16	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:23:38	5c61450b-ff3f-465f-9343-905f93b84515	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:23:54	40ee6a38-ec90-4000-8bcd-2b3d73bebd07	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:24:10	3db8a5ff-e0cf-49a5-98dd-596159bc9ef2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:24:26	7e844385-7cf0-46f6-a1ec-bb36fad909d2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:24:42	cb752121-ca10-4396-ba9b-66f21203042d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:24:58	f4184d21-f847-4f8d-9528-6e7d3d7ee4b3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:25:14	e60f7ac7-e1f5-4f4b-bfec-18bbfcbf0153	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:25:30	340a4ba9-a289-49cc-b0bd-3c451710f072	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:25:46	eaf1a2ea-603e-495c-82cd-a0072742a895	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:26:02	dce30e38-63d3-4d02-8d61-544851684b8a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:26:18	ad52b764-fa10-446a-b48c-6057d8708bb4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:26:34	eecb0e8d-3d7e-47d8-9754-09e3f9b24309	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:26:50	3945ab39-8643-4a7e-86e7-d2bdad8e7fd2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:27:06	685f05c7-4487-45f8-9d05-cb5354e6fb6e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:27:22	c95f58ad-66f1-41c4-91a6-3f2ac3298836	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:27:38	e25f580b-b3bf-4597-ba4b-dbd29d375d78	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:27:54	3d8c81a6-9b94-4f72-8d4d-58f801ab90db	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:28:10	004ae348-170d-4744-8170-7b7f7ed8bf91	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:28:26	d6ebf49e-cd7c-4e9a-8266-fdf41f1945df	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:28:42	96c60303-d02d-4628-af9e-e6dd2abf809c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:28:58	9a926a5a-c234-42e3-9a55-572bdffacd54	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:29:14	d677eaeb-4a97-40ca-9f30-c6865cad45d4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:29:30	c39f2bbd-cb04-41bc-bbc0-96f377bbc4de	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:29:46	b8b24ec3-06d5-48ee-9a81-ff49247d8533	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:30:02	85d80efb-9827-4692-ab70-4825e3f23e2f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:30:18	c6b22d2a-fd86-4462-911f-5d860795d227	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:30:34	23aacd0f-2c66-475c-b225-a5a41cf15b8d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:30:50	d9c5d33e-9b08-4fdd-a4e5-174c4ba70d46	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:31:06	9d9ad1e0-b0f0-4f74-8a5b-f12341c0aec8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:31:22	1c26d7a8-79b1-42ab-98ce-9f17f927de9e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:31:38	b01ea8c0-696a-4f83-8ec2-b9510919a565	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:31:54	9b5c89eb-8902-4c3c-9398-905183c995a1	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:32:10	ed72eaf4-8667-4bb4-a317-821a395b34fa	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:32:26	d6b11471-0a01-410d-9136-70348f77b1ca	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:32:42	17518214-0a65-4673-93ed-ae0aa327511d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:32:58	cd0c58bc-0f1f-430c-bf29-dc5e01a51334	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:33:14	7133ea4e-7dfd-4837-83e4-746f8ff0e6c2	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:33:29	425334f9-9a46-4987-a2fe-51197ccc13dc	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:33:46	741bd3e3-0853-4cac-80bc-0423f8c87cc9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:34:02	d8e0813d-85ac-419b-bf3f-b2ca74ce28c8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:34:18	7c942f4e-e085-441a-91cd-bcd09e6c895a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:34:34	ea734884-018d-49fb-9ac8-752a6fe08b0a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:34:50	72c0000a-f0a7-46f1-9efc-dc80fd5e0774	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:35:06	007adca7-c847-4fe5-9a3c-2d3dd1503739	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:35:21	bf152037-a43b-466c-8ffa-11b04825773a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:35:38	25b90fd7-3308-49a4-bfc4-581af1b8e18b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:35:54	38653a3b-bf66-452f-8aa3-b45656be1bd5	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:36:10	7cf1fe0c-be33-4992-83ce-cf6ff0f7af46	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:36:26	2cf5b6dc-4c4b-4363-a83f-92bc9c004310	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:36:42	c5d72925-b82a-436a-a03b-1ffe599bff50	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:36:58	34a39b31-85eb-42e6-b3c2-5eedc455d60a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:37:14	2d6c5e09-25a6-4be5-8cfc-4172d78b952e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:37:30	7bff3598-c7b8-4722-9c10-98dc3f785d62	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:37:45	eeccb04e-6ad3-49a1-9f06-1274ffcdf377	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:38:02	afb2144b-7521-4f75-8ded-245de1f58a59	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:38:17	c4030721-4b6d-4ac5-9a91-71e84ee3c465	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:38:34	ed3585e3-7f15-4263-b55e-112080219154	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:38:50	cd480eb6-1ba0-48e2-8954-3187a6dcb57e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:39:06	f375bfbd-1fc5-4e9c-8890-b1a2c0328c2d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:39:22	e7cfbcb5-cc7a-4484-959f-6bc94decffb0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:39:38	8dbd7dbc-77b7-4eea-9654-eecb79ca7ca0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:39:54	bd964166-2879-4c4b-afc0-2f16446bf311	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:40:10	37ec49e7-a30c-445a-a78a-6e400ac29ecf	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:40:26	b60e017e-2d57-4d35-a3d3-a3eaf794dc24	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:40:42	8232a95e-6bd6-434a-ab54-1df713a77b3e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:40:58	759c830b-0604-4f6e-ba52-7ebef018e62b	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:41:13	37071878-6a60-47ee-8006-4e545a6d5f23	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:41:29	08ffaed2-56ec-480e-bf24-5a53a36f2c2a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:41:45	fd8ea12a-fc0f-4fb6-bca5-37590d426804	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:42:02	338d8e86-666e-49d9-b947-6a732ade38f4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:42:17	a7b0580c-e17d-4efa-adae-13f751c8e82e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:42:34	c6071e70-c831-4683-8b6a-48294672d169	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:42:50	9e7dc4a1-fd9d-4e9d-a47d-166a00b37fc8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:43:06	a9a0f10f-78fe-4e16-965e-1397199f3d09	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:43:21	ee5ed3a2-d714-4070-b2e1-243af0930c9f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:43:37	7bdac078-77d4-43ed-82f0-1c9368541fe3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:43:54	e05d746c-800f-4ce0-a95e-933a07448d65	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:44:10	a2f9b391-8f71-41a2-9d2e-1abf2f9e15e9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:44:25	ed4216a6-a5b1-4a87-a6e1-687c64aa2246	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:44:42	d2e152db-68bd-4867-8341-aaa426ad0b2d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:44:58	4a16a9da-0101-481d-8ac8-6f6c9a764a4e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:45:14	64e7ef79-81ca-422d-ab67-f576d1b4b839	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:45:30	76010f49-0798-4049-b414-f2a30a34ea2a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:45:45	e0861568-1fc7-404c-9ed6-28b0bdaf0c60	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:46:02	f0c91d1f-03ad-485a-b573-df7ae5e921f5	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:46:18	9a6f6957-e7c5-44a0-b7af-241f7fbb621c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:46:34	f2b3be3c-90f6-4c42-abed-b451fdc9a498	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:46:50	06202645-5ed9-4743-8fc7-da7ed9984f48	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:47:06	71ef9992-f0cc-4f0a-a1d8-d2e034bd6124	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:47:21	b6f7a730-6b77-4e2d-84a9-2aadeb6056b7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:47:38	080c0bba-e580-458d-af54-56f3adac3f59	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:47:54	a043e4b1-fbcd-48fe-ac95-472fe71acab8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:48:10	7a1cbb0b-6698-44a9-aef5-18e759bbf185	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:48:26	c8f6afb4-cc5e-499e-969e-d659063afa59	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:48:41	6b90d22d-9ba3-45d6-8ea2-f2336a29143e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:48:58	a4e66561-b4ee-4e7c-9e46-e9ae40ddf888	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:49:13	01198190-4209-4ed4-b869-76d7cc16ff1d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:49:30	8a94c90d-8a89-4e98-8e48-9eafbf2c06a6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:49:45	70a11224-44e4-49e8-9ad7-5f98202418e7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:50:01	2a5e2968-0938-4ccf-9023-587fe5eb724f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:50:17	82f0f0be-2584-492a-a426-223a2144abb3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:50:34	eab23569-0413-4991-8351-f5ea4762368e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:50:50	7c2f1ce7-8051-4cbd-b98c-b37d750a0497	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:51:06	aa4e1aeb-e6d4-4ef5-9abd-684bf45c8254	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:51:22	873eb291-c214-4107-8937-54844c7f5316	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:51:38	71c9e719-0b6d-4e53-9d6d-cc4d12002c3a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:51:54	6aea6eaa-d697-4818-8d57-ac55f80e50ff	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:52:09	c8383559-03a5-428d-9f81-a91aa61b7fa4	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:52:26	2eee4849-6e53-4c8f-977a-def04e887505	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:52:41	2b85eb13-af8c-4591-8644-239cb1430eb3	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:52:58	056f522d-e659-4a49-9483-ba971c088ae7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:53:14	d98ea91b-e1f8-424e-9154-709421b393a0	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:53:29	46f84179-0552-4dd5-b17a-7240b75b5f11	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:53:45	79a63c1b-d958-47cd-904d-316ec25de31a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:54:02	f958c9cf-f677-42ac-9c4b-7e3950643066	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:54:18	e74fe58d-ba1b-4dd8-b513-08060ae42519	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:54:34	e347d59a-dddd-4558-911f-3aac2b442ddd	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:54:49	cc92d7b5-ad47-40d4-b2d0-d1ae16d99057	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:55:05	4a056e00-906a-4ef2-a4e4-ff6cb0e276f6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:55:22	4851138a-c60c-45d4-a91e-5c3d4c3a18f5	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:55:38	e57352b5-82d5-4680-bd75-44cb52a0e466	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:55:53	e50d82e3-0be2-4489-abdd-abab43175ef6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:56:10	e7f8a1cc-aa65-49de-89ee-0aa0e2232426	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:56:26	0f48d9f0-0f38-4c74-9a8b-94b5f4fc6c3c	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:56:41	362da9e6-8e14-4a03-85d7-65211df99270	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:56:58	0c69037c-47d1-442a-a951-c5729812b93e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:57:13	270f65c4-dd34-48e0-a5b8-9c221b845464	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:57:30	2946b867-5992-460d-b571-918484df805a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:57:46	54eb3a7e-23d7-4d88-95f7-ee8353298c9d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:58:02	5dc8bae0-eda2-4d50-8ee1-4718eabbd1f7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:58:18	32711d8b-5330-4485-97ec-86751fc946f9	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:58:34	a5445bfd-0cff-48ff-835e-1bddae0b29dc	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:58:50	523f4810-3c6a-4e21-afb3-f8a59c6a54a6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:59:06	9cf325a4-84b9-4fc2-9760-66da5bb53000	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:59:22	3d0ff6d0-2e11-45af-b1ac-3e83e02d8c9d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:59:38	3a0b1cac-a034-4025-8f8b-a4f7645078ae	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	01:59:53	480de1e4-ecbc-401d-9410-e03542dbc5f8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:00:09	25b5c2af-9041-402c-8621-d68a0c655a42	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:00:26	201875ea-1be6-45fc-82d7-0cfec2f2dc8e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:00:42	6a5842cf-6033-46e0-9273-c981c2509008	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:00:58	b760fa4d-ec25-45bf-a2dd-4ce6fbcdad0d	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:01:14	27b41815-6cf4-4dc5-95f5-9ea298285b4a	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:01:30	e59d24cb-2394-466a-9a5b-20cd23908145	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:01:46	7e1e0032-404e-4714-86be-0d4c67a1aaa7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:02:01	7f1c0a86-c07d-4ab8-bd42-c82a2c382799	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:02:17	2f8c5eaf-f4ef-4d91-a50b-e837ca7a67e7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:02:33	1db40065-3dc6-4933-a65e-9fad142a37b6	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:02:50	93643b9b-7227-41d0-adcc-1f15be577dfa	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:03:06	332a1acc-64aa-44b8-9206-4d6b6e132031	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:03:22	69324080-9eff-410e-a4ca-27339c9b5d74	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:03:37	f1743d7c-1796-494b-a8e8-9e8dc501c715	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:03:53	a92cad07-f04f-47fe-a1ed-bfaab90c75cc	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:04:10	804b2ae6-c80e-4d79-90a6-633aa7a9c644	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:04:26	ae70fc08-d725-45c2-8601-60acb9d83715	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:04:42	f82cf8b7-c485-4b41-ad7c-825088a7c83f	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:04:58	46c90fa0-5734-44ec-a989-2ece67ddaf36	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	02:05:13	79caa8be-447e-4d26-9457-a47d5e59d6fd	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	13:02:49	d6576a0c-5000-4b74-8b69-d25382edd419	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	13:03:05	2ceeef03-c0ef-42dd-bc88-0bfbd833d491	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	13:03:21	e5b4e6d2-79fc-4317-b670-7bc58da678ee	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	13:03:37	c8acf42d-149d-4f59-89da-74c74f19505e	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	13:03:55	80aa1f14-e7d1-46e8-8525-2c3239d0a9b8	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
+20240619	13:04:11	26385872-d0ad-4f81-ae53-2a45b5af33b7	TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:3000
