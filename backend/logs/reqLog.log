@@ -934,3 +934,9 @@
 20240620	05:34:03	147a46df-314a-479a-b61a-622eb4855709	GET	/notes	undefined
 20240620	05:35:51	e2e92ceb-a030-4a31-b8c0-1d6e678876fd	GET	/users	undefined
 20240620	05:36:01	17929640-821b-41fd-9fc2-52d59b670323	GET	/notes	undefined
+20240620	18:15:07	af4af1c4-96d3-4ec2-a41d-1622e00fdd10	OPTIONS	/auth	http://localhost:3000
+20240620	18:15:07	9ec1e55c-23c0-400c-9218-2123977b1bca	POST	/auth	http://localhost:3000
+20240620	18:15:08	07497461-56ac-40d4-b5f9-6bd115a3197f	OPTIONS	/notes	http://localhost:3000
+20240620	18:15:08	8464e4cd-f7b2-4582-ad39-a2588d2734d2	OPTIONS	/users	http://localhost:3000
+20240620	18:15:08	aeb02bd8-3500-4337-a154-60d1772923e2	GET	/notes	http://localhost:3000
+20240620	18:15:08	58ac729c-68de-4d2b-981f-3be521faa100	GET	/users	http://localhost:3000
